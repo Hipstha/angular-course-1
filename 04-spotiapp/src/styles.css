@@ -13,8 +13,12 @@ hr {
     cursor: pointer;
 }
 
+.table{
+  color: white !important;
+}
+
 .img-circle {
-    border-radius: 100%;
+    border-radius: 100% !important;
     width: 150px;
 }
 
