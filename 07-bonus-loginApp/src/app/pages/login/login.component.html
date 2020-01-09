@@ -33,14 +33,15 @@
                            name="pass"
                            required
                            minlength="6"
-                           [(ngModel)]="usuario.pass"
+                           [(ngModel)]="usuario.password"
                            placeholder="Password">
                     <span class="focus-input100"></span>
                 </div>
 
                 <div class="flex-sb-m w-full p-t-3 p-b-24">
                     <div class="contact100-form-checkbox">
-                        <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+                        <input [(ngModel)]="recordarme"
+                                class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
                         <label class="label-checkbox100" for="ckb1">
                             Recordar mi usuario
                         </label>
